@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  margin: 40px;
+  text-align: center;
+}
+
+.destination-img {
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.destination-para {
+  font-size: 30px;
+  color: #0f172a;
+  font-family: Open Sans;
+  font-weight: bold;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.heading {
+  font-size: 55px;
+  text-align: center;
+  color: #252627;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.input-style {
+  height: 50px;
+  padding: 10px;
+  width: 300px;
+  background-color: #f1f5f9;
+  font-size: 30px;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    flex-wrap: wrap;
+  }
+}
